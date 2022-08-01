@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+    background-image:url(./assets/carnes-com-cerveja.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+    max-width: 300px;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 2px solid rgb(146, 217, 235);
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+.coluna_central{
+    max-width: 500px;
+    margin: auto;
+    height: 630px;
+    padding: 80px;
+    box-sizing: border-box;
+}
